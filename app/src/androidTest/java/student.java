@@ -27,6 +27,11 @@ public class student {
 
     }
 
-
-
+    @Override
+    public String toString() {
+        return "student{" +
+                "name='" + name + '\'' +
+                ", phno=" + phno +
+                '}';
+    }
 }
